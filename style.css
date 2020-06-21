@@ -1,0 +1,133 @@
+a {
+    color: #4e4d4d;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav-bar {
+    height: 20px;
+    margin-top: 10px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+#app-icon {
+    width: 25px;
+    margin: 0px;
+}
+
+.main-container {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#search-main-container {
+    display: flex;
+}
+
+
+#search-container {
+    margin: 30px auto 30px auto;
+    justify-content: center;
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    }
+
+
+#search-container img {
+    width:25px;
+    height: 20px;
+    padding: 0.5em;
+}
+#search-bar {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.5em;
+    width: 500px;
+}    
+
+#search-bar:focus {
+    outline: none;
+}
+
+
+#search-container:hover {
+    box-shadow: 1px 1px 2px 1px rgba(143, 143, 143, 0.6)
+}
+
+
+#small-button-container {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 25px;
+    border-style: 1px solid rgb(255, 255, 255);
+}
+
+
+#small-button-container {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    margin: 3px;
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+    background-color: rgb(238, 238, 238);
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(214, 214, 214);
+    margin: 2px;
+    
+}
+
+#francais {
+    text-align: center;
+    font-size: 14px;
+}
+
+#french-link {
+    color: blue;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-footer {
+    background-color: rgb(236, 235, 235);   
+    padding: 0 15px;
+    border-bottom: solid rgb(196, 194, 194) 1px;
+    color: #4e4d4d;
+}
